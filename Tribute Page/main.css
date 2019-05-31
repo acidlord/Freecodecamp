@@ -1,13 +1,20 @@
-body {
+#main {
     background-color: #141f1f;
-    color: black;
+    color: #c0d8d8;
     font-family: 'Actor';font-size: 18px;
     padding-top: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
     padding-left: 100px;
 }
-h1 {color: #c0d8d8;}
+h1 {color: #c0d8d8;
+
+}
+
+#headline {
+    text-align: center;
+    color: black;
+}
 
 img {
   border-radius: 5%;
@@ -24,6 +31,7 @@ img {
 }
 
 p{
+    color: black;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
@@ -33,3 +41,4 @@ p{
     text-align: center;
     color: #c0d8d8;
 }
+
