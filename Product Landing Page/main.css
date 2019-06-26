@@ -1,3 +1,25 @@
+.navbar {
+        margin-bottom: 0;
+        z-index: 9999 ;
+        border: 0 ;
+        font-size: 12px ;
+        line-height: 1.42857143 ;
+        letter-spacing: 4px ;
+        border-radius: 0 ;
+    
+      }
+      .navbar li a, .navbar .navbar-brand {
+        color: darkgray;
+      }
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: lightgray !important;
+        background-color: #660033;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+}
+
 #email-form {
     background-color: #660033;
     color: lightgray;
@@ -9,4 +31,13 @@
 
 .btn {
     color: lightgray;
+}
+
+#features-icons{
+    font-size: 50px;
+    color: #660033;
+}
+
+.Our-features-header {
+    text-align: center;
 }
