@@ -32,21 +32,27 @@
     color: whitesmoke;
 }
 
-.btn {
-    color: lightgray;
+#about {
+    padding-bottom: 50px;
 }
-
+#features{
+    padding-top: 55px;
+}
 #features-icons{
-    font-size: 50px;
+    font-size: 20px;
     color: #800080;
 }
 
 .Our-features-header {
     text-align: center;
 }
-
+ 
+#pricing{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
 .panel {
-        border: 2px solid black; 
+        border: 2px solid darkgray; 
         border-radius:0 !important;
         transition: box-shadow 0.5s;
       }
@@ -70,9 +76,10 @@
       }
       .panel-footer {
         background-color: white !important;
+        color: black;
       }
       .panel-footer h3 {
-        font-size: 32px;
+        font-size: 28px;
       }
       .panel-footer h4 {
         color: darkgrey;
@@ -83,4 +90,6 @@
         background-color: #800080;
         color: #fff;
       }
-
+#contact {
+    padding-top: 320px;
+}
